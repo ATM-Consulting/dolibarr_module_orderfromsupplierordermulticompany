@@ -61,7 +61,7 @@ class modorderfromsupplierordermulticompany extends DolibarrModules
         // (where XXX is value of numeric property 'numero' of module)
         $this->description = "Description of module orderfromsupplierordermulticompany";
         // Possible values for version are: 'development', 'experimental' or version
-        $this->version = '2.3.0';
+        $this->version = '2.3.1';
         // Key used in llx_const table to save module status enabled/disabled
         // (where MYMODULE is value of property name of module in uppercase)
         $this->const_name = 'MAIN_MODULE_' . strtoupper($this->name);
@@ -73,7 +73,7 @@ class modorderfromsupplierordermulticompany extends DolibarrModules
         // use this->picto='pictovalue'
         // If file is in module/img directory under name object_pictovalue.png
         // use this->picto='pictovalue@module'
-        $this->picto = 'orderfromsupplierordermulticompany@orderfromsupplierordermulticompany'; // mypicto@orderfromsupplierordermulticompany
+        $this->picto = 'module.svg@orderfromsupplierordermulticompany'; // mypicto@orderfromsupplierordermulticompany
         // Defined all module parts (triggers, login, substitutions, menus, css, etc...)
         // for default path (eg: /orderfromsupplierordermulticompany/core/xxxxx) (0=disable, 1=enable)
         // for specific path of parts (eg: /orderfromsupplierordermulticompany/core/modules/barcode)

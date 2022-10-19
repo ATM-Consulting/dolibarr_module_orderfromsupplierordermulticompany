@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 
 ## VERSION 2.3
+- FIX : Missing icon  *19/10/2022* - 2.3.1
 - FIX : update supplier order line from order line *07/10/2022* - 2.3.0  [Pull Request](https://github.com/ATM-Consulting/dolibarr_module_orderfromsupplierordermulticompany/pull/16)
 
     when const OFSOM_UPDATE_LINE_SOURCE was enabled, the linked supplier order was not updated
